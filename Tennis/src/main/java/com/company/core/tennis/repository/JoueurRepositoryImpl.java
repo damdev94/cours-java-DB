@@ -2,7 +2,6 @@ package com.company.core.tennis.repository;
 
 import com.company.core.tennis.DataSourceProvider;
 import com.company.core.tennis.entity.Joueur;
-import org.apache.commons.dbcp2.BasicDataSource;
 
 import javax.sql.DataSource;
 import java.sql.*;
