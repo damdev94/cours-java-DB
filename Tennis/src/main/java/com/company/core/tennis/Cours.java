@@ -2,8 +2,10 @@ package com.company.core.tennis;
 import com.company.core.tennis.entity.*;
 import com.company.core.tennis.service.MatchService;
 
+import java.sql.SQLException;
+
 public class Cours {
-    public static void main(String... args){
+    public static void main(String... args) throws SQLException {
         MatchService matchService = new MatchService();
         Match match = new Match();
         Score score = new Score();
